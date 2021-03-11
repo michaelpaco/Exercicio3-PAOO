@@ -1,0 +1,18 @@
+.card {
+  position: relative;
+  min-height: 260px;
+  border: 1px solid hsl(0, 0, 30%);
+}
+
+.card p {
+  color: rgba(77, 77, 77)
+}
+
+.card a {
+  position: absolute;
+  bottom: 20px;
+}
+
+.card a:hover {
+  filter: contrast(20%);
+}

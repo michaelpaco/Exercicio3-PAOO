@@ -1,0 +1,10 @@
+<div class="container">
+  <app-cursos
+    (cursoAdicionado)="onAdicionarCurso($event)"
+  ></app-cursos>
+  <div class="row">
+    <div class="col-4" *ngFor="let curso of cursos">
+      <app-curso [curso]="curso"></app-curso>
+    </div>
+  </div>
+</div>
